@@ -35,6 +35,42 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
+  # State Management
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+
+  # Dependency Injection
+  get_it: ^7.7.0
+  injectable: ^2.4.2
+
+  # Database
+  sqflite: ^2.3.3
+  sqflite_common_ffi: ^2.3.3
+  path_provider: ^2.1.3
+  path: ^1.9.0
+
+  # File Handling
+  file_picker: ^8.0.0+1
+  mime: ^1.0.5
+
+  # Gemini AI
+  google_generative_ai: ^0.4.3
+
+  # UI Components
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+
+  # File Preview
+  flutter_pdfview: ^1.3.2
+  photo_view: ^0.15.0
+  flutter_markdown: ^0.7.3
+
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.4.2
+  permission_handler: ^11.3.1
+  flutter_secure_storage: ^9.2.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -45,6 +81,14 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
+
+  # Code Generation
+  build_runner: ^2.4.11
+  injectable_generator: ^2.6.1
+
+  # Testing
+  mockito: ^5.4.4
+  bloc_test: ^9.1.7
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
