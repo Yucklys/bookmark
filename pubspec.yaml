@@ -56,6 +56,9 @@ dependencies:
   # Gemini AI
   google_generative_ai: ^0.4.3
 
+  # Image Processing
+  image: ^4.0.0
+
   # UI Components
   cached_network_image: ^3.3.1
   shimmer: ^3.0.0

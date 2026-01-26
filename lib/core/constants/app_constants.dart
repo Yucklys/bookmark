@@ -14,7 +14,7 @@ class AppConstants {
   // Gemini API
   static const String geminiApiKeyStorageKey = 'gemini_api_key';
   static const int maxRetries = 3;
-  static const Duration retryDelay = Duration(seconds = 2);
+  static const Duration retryDelay = Duration(seconds: 2);
 
   // File constraints
   static const int maxFileSizeBytes = 100 * 1024 * 1024; // 100MB
